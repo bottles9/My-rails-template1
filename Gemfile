@@ -53,5 +53,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development do
 	gem 'sqlite3', '~> 1.3.6'
 end
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+
 gem 'jquery-rails'
