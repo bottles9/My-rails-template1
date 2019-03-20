@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeenyLand</title>
+    <%= csrf_meta_tags %>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<%= render 'layouts/navigation' %>
+
+  	<script>
+  	  var scroll = new SmoothScroll('a[href*="#"]');
+  	</script>
+
+    <%= yield %>
+    <%= render 'layouts/footer' %>
+  </body>
+</html>
